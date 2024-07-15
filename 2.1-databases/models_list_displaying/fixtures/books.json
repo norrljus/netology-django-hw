@@ -16,5 +16,905 @@
       "author": "Джордж Оруэл",
       "pub_date": "2016-12-06"
     }
+  },
+  {
+    "model": "books.book",
+    "pk": 3,
+    "fields": {
+      "name": "Подросток",
+      "author": "Федор Достоевский",
+      "pub_date": "2013-11-16"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 4,
+    "fields": {
+      "name": "Село Степанчиково и его обитатели",
+      "author": "Федор Достоевский",
+      "pub_date": "2010-11-18"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 5,
+    "fields": {
+      "name": "Старик и море",
+      "author": "Эрнест Хемингуэй",
+      "pub_date": "2016-08-26"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 6,
+    "fields": {
+      "name": "Мартин Иден",
+      "author": "Джек Лондон",
+      "pub_date": "2011-05-26"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 7,
+    "fields": {
+      "name": "Белый Клык",
+      "author": "Джек Лондон",
+      "pub_date": "2016-06-25"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 8,
+    "fields": {
+      "name": "Триумфальная арка",
+      "author": "Эрих Мария Ремарк",
+      "pub_date": "2016-08-11"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 9,
+    "fields": {
+      "name": "Борис Годунов",
+      "author": "Александр Пушкин",
+      "pub_date": "2020-04-02"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 10,
+    "fields": {
+      "name": "Момент истины (В августе 44-го)",
+      "author": "Владимир Богомолов",
+      "pub_date": "2012-05-12"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 11,
+    "fields": {
+      "name": "Белая гвардия",
+      "author": "Михаил Булгаков",
+      "pub_date": "2011-03-01"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 12,
+    "fields": {
+      "name": "Сорок пять",
+      "author": "Александр Дюма",
+      "pub_date": "2019-01-11"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 13,
+    "fields": {
+      "name": "Вишневый сад",
+      "author": "Антон Чехов",
+      "pub_date": "2011-04-07"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 14,
+    "fields": {
+      "name": "Хаджи-Мурат",
+      "author": "Лев Толстой",
+      "pub_date": "2017-05-05"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 15,
+    "fields": {
+      "name": "Война и мир",
+      "author": "Лев Толстой",
+      "pub_date": "2015-06-24"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 16,
+    "fields": {
+      "name": "Белеет парус одинокий",
+      "author": "Валентин Катаев",
+      "pub_date": "2014-03-04"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 17,
+    "fields": {
+      "name": "1984",
+      "author": "Джордж Оруэлл",
+      "pub_date": "2014-09-05"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 18,
+    "fields": {
+      "name": "Герой нашего времени",
+      "author": "Михаил Лермонтов",
+      "pub_date": "2021-12-06"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 19,
+    "fields": {
+      "name": "Возвращение Шерлока Холмса",
+      "author": "Артур Конан Дойль",
+      "pub_date": "2022-06-06"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 20,
+    "fields": {
+      "name": "Двадцать лет спустя",
+      "author": "Александр Дюма",
+      "pub_date": "2011-06-28"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 21,
+    "fields": {
+      "name": "Двадцать тысяч лье под водой",
+      "author": "Жюль Верн",
+      "pub_date": "2011-10-03"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 22,
+    "fields": {
+      "name": "Судьба человека",
+      "author": "Михаил Шолохов",
+      "pub_date": "2023-06-13"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 23,
+    "fields": {
+      "name": "Преступление и наказание",
+      "author": "Федор Достоевский",
+      "pub_date": "2019-07-15"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 24,
+    "fields": {
+      "name": "Дубровский",
+      "author": "Александр Пушкин",
+      "pub_date": "2014-12-05"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 25,
+    "fields": {
+      "name": "Воскресение",
+      "author": "Лев Толстой",
+      "pub_date": "2015-09-19"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 26,
+    "fields": {
+      "name": "Повести Белкина",
+      "author": "Александр Пушкин",
+      "pub_date": "2013-01-26"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 27,
+    "fields": {
+      "name": "Про Федота-стрельца, удалого молодца",
+      "author": "Леонид Филатов",
+      "pub_date": "2020-11-11"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 28,
+    "fields": {
+      "name": "Фауст",
+      "author": "Иоганн Вольфганг фон Гёте",
+      "pub_date": "2012-07-23"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 29,
+    "fields": {
+      "name": "Ревизор",
+      "author": "Николай Гоголь",
+      "pub_date": "2011-01-22"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 30,
+    "fields": {
+      "name": "Морфий",
+      "author": "Михаил Булгаков",
+      "pub_date": "2015-10-03"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 31,
+    "fields": {
+      "name": "Братья Карамазовы",
+      "author": "Федор Достоевский",
+      "pub_date": "2012-03-24"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 32,
+    "fields": {
+      "name": "Записки о Шерлоке Холмсе",
+      "author": "Артур Конан Дойль",
+      "pub_date": "2016-07-03"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 33,
+    "fields": {
+      "name": "Вечера на хуторе близ Диканьки",
+      "author": "Николай Гоголь",
+      "pub_date": "2018-05-18"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 34,
+    "fields": {
+      "name": "Записки юного врача",
+      "author": "Михаил Булгаков",
+      "pub_date": "2016-02-07"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 35,
+    "fields": {
+      "name": "Графиня де Монсоро",
+      "author": "Александр Дюма",
+      "pub_date": "2022-04-30"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 36,
+    "fields": {
+      "name": "Республика ШКИД",
+      "author": "Григорий Белых, Л. Пантелеев",
+      "pub_date": "2021-12-02"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 37,
+    "fields": {
+      "name": "Евгений Онегин",
+      "author": "Александр Пушкин",
+      "pub_date": "2018-06-20"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 38,
+    "fields": {
+      "name": "Собака Баскервилей",
+      "author": "Артур Конан Дойль",
+      "pub_date": "2010-06-30"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 39,
+    "fields": {
+      "name": "Бедные люди",
+      "author": "Федор Достоевский",
+      "pub_date": "2021-06-11"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 40,
+    "fields": {
+      "name": "Таинственный остров",
+      "author": "Жюль Верн",
+      "pub_date": "2020-07-04"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 41,
+    "fields": {
+      "name": "Иван Васильевич",
+      "author": "Михаил Булгаков",
+      "pub_date": "2014-07-21"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 42,
+    "fields": {
+      "name": "Солярис",
+      "author": "Станислав Лем",
+      "pub_date": "2014-07-13"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 43,
+    "fields": {
+      "name": "Тарас Бульба",
+      "author": "Николай Гоголь",
+      "pub_date": "2016-01-24"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 44,
+    "fields": {
+      "name": "Мёртвые души",
+      "author": "Николай Гоголь",
+      "pub_date": "2014-06-22"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 45,
+    "fields": {
+      "name": "Собачье сердце",
+      "author": "Михаил Булгаков",
+      "pub_date": "2015-10-07"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 46,
+    "fields": {
+      "name": "Руслан и Людмила",
+      "author": "Александр Пушкин",
+      "pub_date": "2016-06-19"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 47,
+    "fields": {
+      "name": "Капитанская дочка",
+      "author": "Александр Пушкин",
+      "pub_date": "2019-02-03"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 48,
+    "fields": {
+      "name": "Медный всадник",
+      "author": "Александр Пушкин",
+      "pub_date": "2016-11-28"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 49,
+    "fields": {
+      "name": "Три товарища",
+      "author": "Эрих Мария Ремарк",
+      "pub_date": "2022-06-20"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 50,
+    "fields": {
+      "name": "Тихий Дон",
+      "author": "Михаил Шолохов",
+      "pub_date": "2013-05-23"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 51,
+    "fields": {
+      "name": "Игрок",
+      "author": "Федор Достоевский",
+      "pub_date": "2022-06-23"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 52,
+    "fields": {
+      "name": "Двенадцать стульев",
+      "author": "Илья Ильф, Евгений Петров",
+      "pub_date": "2014-06-06"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 53,
+    "fields": {
+      "name": "Мастер и Маргарита",
+      "author": "Михаил Булгаков",
+      "pub_date": "2022-08-23"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 54,
+    "fields": {
+      "name": "Записки охотника",
+      "author": "Иван Тургенев",
+      "pub_date": "2019-11-16"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 55,
+    "fields": {
+      "name": "Палата № 6",
+      "author": "Антон Чехов",
+      "pub_date": "2016-09-02"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 56,
+    "fields": {
+      "name": "Приключения Шерлока Холмса",
+      "author": "Артур Конан Дойль",
+      "pub_date": "2017-03-27"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 57,
+    "fields": {
+      "name": "Человек-амфибия",
+      "author": "Александр Беляев",
+      "pub_date": "2016-06-02"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 58,
+    "fields": {
+      "name": "Сто лет одиночества",
+      "author": "Габриэль Гарсиа Маркес",
+      "pub_date": "2012-04-28"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 59,
+    "fields": {
+      "name": "Приключения Гекльберри Финна",
+      "author": "Марк Твен",
+      "pub_date": "2020-12-09"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 60,
+    "fields": {
+      "name": "Дворянское гнездо",
+      "author": "Иван Тургенев",
+      "pub_date": "2015-02-25"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 61,
+    "fields": {
+      "name": "Идиот",
+      "author": "Федор Достоевский",
+      "pub_date": "2018-10-21"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 62,
+    "fields": {
+      "name": "Три мушкетера",
+      "author": "Александр Дюма",
+      "pub_date": "2012-07-13"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 63,
+    "fields": {
+      "name": "Чайка",
+      "author": "Антон Чехов",
+      "pub_date": "2010-06-22"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 64,
+    "fields": {
+      "name": "Хождение по мукам",
+      "author": "Алексей Толстой",
+      "pub_date": "2014-10-12"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 65,
+    "fields": {
+      "name": "Трудно быть богом",
+      "author": "Аркадий и Борис Стругацкие",
+      "pub_date": "2016-12-14"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 66,
+    "fields": {
+      "name": "Отверженные",
+      "author": "Виктор Гюго",
+      "pub_date": "2010-12-14"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 67,
+    "fields": {
+      "name": "Дядя Ваня",
+      "author": "Антон Чехов",
+      "pub_date": "2012-03-19"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 68,
+    "fields": {
+      "name": "Золотой теленок",
+      "author": "Илья Ильф, Евгений Петров",
+      "pub_date": "2023-09-05"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 69,
+    "fields": {
+      "name": "Семнадцать мгновений весны",
+      "author": "Юлиан Семенов",
+      "pub_date": "2019-08-15"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 70,
+    "fields": {
+      "name": "Бесприданница",
+      "author": "Александр Островский",
+      "pub_date": "2017-09-07"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 71,
+    "fields": {
+      "name": "Два капитана",
+      "author": "Вениамин Каверин",
+      "pub_date": "2021-09-12"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 72,
+    "fields": {
+      "name": "Пикник на обочине",
+      "author": "Аркадий и Борис Стругацкие",
+      "pub_date": "2019-07-20"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 73,
+    "fields": {
+      "name": "Кавказский пленник",
+      "author": "Лев Толстой",
+      "pub_date": "2017-02-11"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 74,
+    "fields": {
+      "name": "Униженные и оскорблённые",
+      "author": "Федор Достоевский",
+      "pub_date": "2023-08-30"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 75,
+    "fields": {
+      "name": "Анна Каренина",
+      "author": "Лев Толстой",
+      "pub_date": "2021-06-11"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 76,
+    "fields": {
+      "name": "Доктор Живаго",
+      "author": "Борис Пастернак",
+      "pub_date": "2022-05-23"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 77,
+    "fields": {
+      "name": "Записки из Мёртвого дома",
+      "author": "Федор Достоевский",
+      "pub_date": "2017-10-09"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 78,
+    "fields": {
+      "name": "А зори здесь тихие",
+      "author": "Борис Васильев",
+      "pub_date": "2015-05-22"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 79,
+    "fields": {
+      "name": "Земля Санникова",
+      "author": "Владимир Обручев",
+      "pub_date": "2018-03-29"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 80,
+    "fields": {
+      "name": "Рассказы",
+      "author": "Антон Чехов",
+      "pub_date": "2011-03-02"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 81,
+    "fields": {
+      "name": "Робинзон Крузо",
+      "author": "Даниель Дефо",
+      "pub_date": "2011-12-16"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 82,
+    "fields": {
+      "name": "Алые паруса",
+      "author": "Александр Грин",
+      "pub_date": "2014-05-15"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 83,
+    "fields": {
+      "name": "Бесы",
+      "author": "Федор Достоевский",
+      "pub_date": "2019-04-24"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 84,
+    "fields": {
+      "name": "Отцы и дети",
+      "author": "Иван Тургенев",
+      "pub_date": "2021-10-24"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 85,
+    "fields": {
+      "name": "Граф Монте-Кристо",
+      "author": "Александр Дюма",
+      "pub_date": "2010-10-07"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 86,
+    "fields": {
+      "name": "Черный обелиск",
+      "author": "Эрих Мария Ремарк",
+      "pub_date": "2022-09-09"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 87,
+    "fields": {
+      "name": "Три сестры",
+      "author": "Антон Чехов",
+      "pub_date": "2012-06-12"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 88,
+    "fields": {
+      "name": "Приключения Тома Сойера",
+      "author": "Марк Твен",
+      "pub_date": "2020-05-30"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 89,
+    "fields": {
+      "name": "Детство. Отрочество. Юность",
+      "author": "Лев Толстой",
+      "pub_date": "2023-11-25"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 90,
+    "fields": {
+      "name": "Обломов",
+      "author": "Иван Гончаров",
+      "pub_date": "2015-05-03"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 91,
+    "fields": {
+      "name": "Джейн Эйр",
+      "author": "Шарлотта Бронте",
+      "pub_date": "2022-04-27"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 92,
+    "fields": {
+      "name": "Драма на охоте",
+      "author": "Антон Чехов",
+      "pub_date": "2017-12-19"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 93,
+    "fields": {
+      "name": "Рудин",
+      "author": "Иван Тургенев",
+      "pub_date": "2015-09-17"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 94,
+    "fields": {
+      "name": "Горе от ума",
+      "author": "Александр Грибоедов",
+      "pub_date": "2013-06-29"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 95,
+    "fields": {
+      "name": "Пиковая дама",
+      "author": "Александр Пушкин",
+      "pub_date": "2016-07-28"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 96,
+    "fields": {
+      "name": "Дети капитана Гранта",
+      "author": "Жюль Верн",
+      "pub_date": "2021-08-23"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 97,
+    "fields": {
+      "name": "Живые и мертвые",
+      "author": "Константин Симонов",
+      "pub_date": "2020-02-26"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 98,
+    "fields": {
+      "name": "Волшебник Изумрудного города",
+      "author": "Александр Волков",
+      "pub_date": "2011-09-02"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 99,
+    "fields": {
+      "name": "Виконт де Бражелон, или Десять лет спустя",
+      "author": "Александр Дюма",
+      "pub_date": "2020-10-14"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 100,
+    "fields": {
+      "name": "Бег",
+      "author": "Михаил Булгаков",
+      "pub_date": "2021-04-13"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 101,
+    "fields": {
+      "name": "Понедельник начинается в субботу",
+      "author": "Аркадий и Борис Стругацкие",
+      "pub_date": "2018-04-04"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 102,
+    "fields": {
+      "name": "Пётр Первый",
+      "author": "Алексей Толстой",
+      "pub_date": "2010-06-08"
+    }
   }
 ]
