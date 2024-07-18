@@ -5,11 +5,11 @@ from .models import Student
 
 
 def students_list(request):
-    template = 'school/students_list.html'
-    context = {}
-
-    # используйте этот параметр для упорядочивания результатов
-    # https://docs.djangoproject.com/en/2.2/ref/models/querysets/#django.db.models.query.QuerySet.order_by
-    ordering = 'group'
+    template = "school/students_list.html"
+    students = Student.objects.all()
+    # students = Student.objects.prefetch_related('teacher').all()
+    # .order_by('group')
+    ordering = "group"
+    context = {"object_list": students.order_by(ordering)}
 
     return render(request, template, context)
