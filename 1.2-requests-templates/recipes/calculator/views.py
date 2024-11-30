@@ -1,30 +1,35 @@
 from django.shortcuts import render
 
+
 DATA = {
     'omlet': {
-        'яйца, шт': 2,
-        'молоко, л': 0.1,
-        'соль, ч.л.': 0.5,
+        'eggs, whole': 2,
+        'milk, l.': 0.1,
+        'salt, tsp.': 0.5,
     },
     'pasta': {
-        'макароны, г': 0.3,
-        'сыр, г': 0.05,
+        'pasta, g.': 0.3,
+        'cheese, g.': 0.05,
     },
-    'buter': {
-        'хлеб, ломтик': 1,
-        'колбаса, ломтик': 1,
-        'сыр, ломтик': 1,
-        'помидор, ломтик': 1,
+    'sandwich': {
+        'bread, slice': 1,
+        'ham, slice': 1,
+        'cheese, slice': 1,
+        'tomato, slice': 1,
     },
-    # можете добавить свои рецепты ;)
+    'milkshake': {
+        'milk, l.': 0.5,
+        'ice cream, g.': 100,
+        'sauce, tbsp.': 1,
+    },
 }
 
-# Напишите ваш обработчик. Используйте DATA как источник данных
-# Результат - render(request, 'calculator/index.html', context)
-# В качестве контекста должен быть передан словарь с рецептом:
-# context = {
-#   'recipe': {
-#     'ингредиент1': количество1,
-#     'ингредиент2': количество2,
-#   }
-# }
+
+def recipe(request, rec):
+    serv = int(request.GET.get("servings", 1))
+    context = {
+        'name': rec,
+        'recipe': DATA[rec],
+        'servings': serv,
+    }
+    return render(request, "calculator/index.html", context)
